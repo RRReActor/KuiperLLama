@@ -1,0 +1,3 @@
+# WSL CUDA driver allocations reproduced with cudaGetDeviceCount + cudaDeviceReset
+# alone, without linking kuiper. Do not suppress project allocations.
+leak:/usr/lib/wsl/lib/libcuda.so.1
